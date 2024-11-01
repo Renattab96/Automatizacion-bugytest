@@ -1,6 +1,11 @@
 # Bugytest challenge 
 
-Breve descripción de tu proyecto, lo que hace y el propósito.
+# Criterios de Aceptación
+- Se debe poder votar si el usuario se encuentra con la sesión activa. 
+- Ocultar el botón de votar y el campo de comentario cuando no haya sesión activa de un usuario y mostrar un mensaje en su lugar.
+- Se debe poder dejar un comentario si el usuario así lo desea.
+- Mostrar una tabla donde se pueda ver la siguiente información: Date, Author, Comment.
+- Mostrar la descripción, especificación y la cantidad de votos del auto seleccionado.
 
 ## Tabla de Contenidos
 
