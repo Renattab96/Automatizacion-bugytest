@@ -1,6 +1,7 @@
 describe('Pruebas de Inicio de Sesión', () => {
     beforeEach(() => {
       cy.visit('https://buggy.justtestit.org/');
+      
     });
   
     it('Debe iniciar sesión correctamente con credenciales válidas', () => {
@@ -21,6 +22,9 @@ describe('Pruebas de Inicio de Sesión', () => {
       // Verificar que el mensaje de error esté visible
       cy.contains('Invalid username/password').should('be.visible');
       cy.screenshot("Validacion en credenciales invalidas ")
+      // compomentes de comentario no debe de mostrarse y la url 
+      cy.get('#comment').should('not.exist')
+      cy.url ('https://buggy.justtestit.org/model/ckl2phsabijs71623vk0%7Cckl2phsabijs71623vqg').should('not.include', 'ruta-indeseada');
     });
   });
   
