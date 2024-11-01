@@ -6,10 +6,7 @@ Breve descripción de tu proyecto, lo que hace y el propósito.
 
 1. [Requisitos Previos](#requisitos-previos)
 2. [Instalación](#instalación)
-3. [Configuración del Proyecto](#configuración-del-proyecto)
-4. [Ejecución del Proyecto](#ejecución-del-proyecto)
-5. [Comandos Útiles](#comandos-útiles)
-6. [Estructura del Proyecto](#estructura-del-proyecto)
+
 
 ---
 
