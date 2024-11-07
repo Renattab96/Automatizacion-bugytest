@@ -69,7 +69,22 @@ Esto instalará Cypress como una dependencia de desarrollo.
 
 2. Abrir Cypress
 Para abrir la interfaz gráfica de Cypress, usa el siguiente comando:
+Seleccionar el navegador -> Chrome 
 
 ```bash
 npx cypress open
+
 ```
+# Secuencia de ejecución de Test Case
+
+1-login.cy.js
+2-dejar-comentario.cy.js
+3-Verificar_Comentario.cy.js
+4-detalle_card.cy.js
+
+# El comando siguiente ejecuta solo por terminal 
+```bash
+npx cypress run
+```
+
+En el Directorio screenshot se guarda las capturas de la ejecución 
