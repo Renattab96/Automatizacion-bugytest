@@ -21,6 +21,7 @@ Antes de empezar, asegúrate de tener instalados los siguientes recursos en tu s
 
 - [Node.js](https://nodejs.org/) - Recomendado v14.x o superior.
 - [Git](https://github.com/Renattab96/Automatizacion-bugytest.git) - Para clonar el proyecto.
+-  En el Directorio screenshot se guarda las capturas de la ejecución 
 
 Puedes verificar si tienes Node.js y Git instalados ejecutando los siguientes comandos:
 
@@ -29,7 +30,6 @@ node -v
 git --version
 
 ```
-
 ### Instalación
 Sigue estos pasos para configurar el proyecto en tu máquina local.
 
@@ -61,7 +61,6 @@ Este proyecto utiliza Cypress para realizar pruebas de extremo a extremo (E2E).
 1. Instalar Cypress
 Si aún no tienes Cypress instalado, puedes instalarlo con:
 
-
 ```bash
 npm install cypress --save-dev
 ```
@@ -73,7 +72,6 @@ Seleccionar el navegador -> Chrome
 
 ```bash
 npx cypress open
-
 ```
 # Secuencia de ejecución de Test Case
 
@@ -87,4 +85,3 @@ npx cypress open
 npx cypress run
 ```
 
-En el Directorio screenshot se guarda las capturas de la ejecución 
